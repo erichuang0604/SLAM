@@ -1,0 +1,3 @@
+/home/sheng-jie/g2otest6/bundle-adjustment/build/CMakeFiles/edit_cache.dir
+/home/sheng-jie/g2otest6/bundle-adjustment/build/CMakeFiles/rebuild_cache.dir
+/home/sheng-jie/g2otest6/bundle-adjustment/build/CMakeFiles/bundle.dir
