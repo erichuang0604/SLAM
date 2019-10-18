@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.13)
+project(keypoint111)
+
+set(CMAKE_CXX_STANDARD 11)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+aux_source_directory(. DIR_SRCS)#當有多個源文件時，此命令查找當前目錄下的所有源文件
+#注意.後面有一個空格，將所有源文件的名稱保存到DIR_SRCS中
+add_executable(keypoint111 ${DIR_SRCS})
+target_link_libraries(keypoint111 ${OpenCV_LIBS})
